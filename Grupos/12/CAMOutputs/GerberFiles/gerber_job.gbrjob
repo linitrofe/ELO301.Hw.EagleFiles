@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-11-17T00:18:24Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "GATEWAY_Schematic"
+        },
+        "Owner": "Gerald Lavergne <Gerald.lavergne@sansano.usm.cl>",
+        "Size": {
+            "X": 70.536,
+            "Y": 59.426
+        }
+    }
+}

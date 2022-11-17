@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="USB_C">
+<pad name="B7" x="-0.4" y="0" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B6" x="0.4" y="0" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B4" x="1.2" y="0" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B9" x="-1.2" y="0" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B8" x="-0.8" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B5" x="0.8" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B3" x="1.6" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B10" x="-1.6" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B2" x="2.4" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B11" x="-2.4" y="-0.7" locked="yes" drill="0.4" diameter="0.65"/>
+<pad name="B1" x="3.05" y="0" locked="yes" drill="0.4" diameter="0.65" rot="R180"/>
+<pad name="B12" x="-3.05" y="0" locked="yes" drill="0.4" diameter="0.65" rot="R180"/>
+<smd name="A12" x="2.7506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A1" x="-2.7493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A2" x="-2.2493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A3" x="-1.7493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A4" x="-1.2493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A5" x="-0.7493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A6" x="-0.2493625" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A7" x="0.2506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A8" x="0.7506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A9" x="1.2506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A10" x="1.7506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<smd name="A11" x="2.2506375" y="1.11" dx="0.7" dy="0.35" layer="1" locked="yes" roundness="50" rot="R90"/>
+<hole x="-3.725" y="-0.7" drill="0.65" locked="yes"/>
+<pad name="SHIELD1" x="-4.5" y="0.8" locked="yes" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<wire x1="-4.25" y1="0.5" x2="-4.25" y2="1.1" width="0" layer="46" locked="yes"/>
+<wire x1="-4.75" y1="1.1" x2="-4.75" y2="0.5" width="0" layer="46" locked="yes"/>
+<wire x1="-4.75" y1="1.1" x2="-4.25" y2="1.1" width="0" layer="46" curve="-180" locked="yes"/>
+<wire x1="-4.75" y1="0.5" x2="-4.25" y2="0.5" width="0" layer="46" curve="180" locked="yes"/>
+<pad name="SHIELD2" x="4.5" y="0.8" locked="yes" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<wire x1="4.25" y1="0.5" x2="4.25" y2="1.1" width="0" layer="46" locked="yes"/>
+<wire x1="4.75" y1="1.1" x2="4.75" y2="0.5" width="0" layer="46" locked="yes"/>
+<wire x1="4.25" y1="0.5" x2="4.75" y2="0.5" width="0" layer="46" curve="180" locked="yes"/>
+<wire x1="4.25" y1="1.1" x2="4.75" y2="1.1" width="0" layer="46" curve="-180" locked="yes"/>
+<pad name="SHIELD3" x="-6.075" y="-4.7" locked="yes" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<wire x1="-5.825" y1="-4.2" x2="-5.825" y2="-5.2" width="0" layer="46"/>
+<wire x1="-6.325" y1="-4.2" x2="-6.325" y2="-5.2" width="0" layer="46"/>
+<wire x1="-6.325" y1="-5.2" x2="-5.825" y2="-5.2" width="0" layer="46" curve="180"/>
+<wire x1="-6.325" y1="-4.2" x2="-5.825" y2="-4.2" width="0" layer="46" curve="-180"/>
+<pad name="SHIELD4" x="6.075" y="-4.7" locked="yes" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<wire x1="6.325" y1="-4.2" x2="6.325" y2="-5.2" width="0" layer="46"/>
+<wire x1="5.825" y1="-5.2" x2="5.825" y2="-4.2" width="0" layer="46"/>
+<wire x1="5.825" y1="-4.2" x2="6.325" y2="-4.2" width="0" layer="46" curve="-180"/>
+<wire x1="6.325" y1="-5.2" x2="5.825" y2="-5.2" width="0" layer="46" curve="-180"/>
+<wire x1="3.575" y1="-1" x2="3.875" y2="-1" width="0" layer="46"/>
+<wire x1="3.575" y1="-0.35" x2="3.875" y2="-0.35" width="0" layer="46"/>
+<wire x1="3.875" y1="-0.35" x2="3.875" y2="-1" width="0" layer="46" curve="-180"/>
+<wire x1="3.575" y1="-1" x2="3.575" y2="-0.35" width="0" layer="46" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB4060-30-A">
+<wire x1="-12.7" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="30.48" width="0.1524" layer="94"/>
+<pin name="TXP1" x="-17.78" y="22.86" length="middle"/>
+<pin name="TXN1" x="-17.78" y="17.78" length="middle"/>
+<pin name="VBUS1" x="-17.78" y="12.7" length="middle" direction="pas"/>
+<pin name="CC1" x="-17.78" y="7.62" length="middle" direction="pas"/>
+<pin name="DP1" x="-17.78" y="2.54" length="middle"/>
+<pin name="DN1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="SBU1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VBUS2" x="-17.78" y="-12.7" length="middle" direction="pas"/>
+<pin name="RXN2" x="-17.78" y="-17.78" length="middle"/>
+<pin name="RXP2" x="-17.78" y="-22.86" length="middle"/>
+<pin name="GND1" x="-17.78" y="27.94" length="middle" direction="pwr"/>
+<pin name="GND2" x="-17.78" y="-27.94" length="middle" direction="pwr"/>
+<pin name="GND4" x="17.78" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="RXP1" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="RXN1" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="VBUS4" x="17.78" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="SBU2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="DN2" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="DP2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CC2" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="VBUS3" x="17.78" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="TXN2" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="TXP2" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="GND3" x="17.78" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<text x="-12.7" y="33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-33.02" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB4060-30-A" prefix="USB_C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="USB4060-30-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB_C">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="GND1" pad="A1"/>
+<connect gate="G$1" pin="GND2" pad="A12"/>
+<connect gate="G$1" pin="GND3" pad="B1"/>
+<connect gate="G$1" pin="GND4" pad="B12"/>
+<connect gate="G$1" pin="RXN1" pad="B10"/>
+<connect gate="G$1" pin="RXN2" pad="A10"/>
+<connect gate="G$1" pin="RXP1" pad="B11"/>
+<connect gate="G$1" pin="RXP2" pad="A11"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="TXN1" pad="A3"/>
+<connect gate="G$1" pin="TXN2" pad="B3"/>
+<connect gate="G$1" pin="TXP1" pad="A2"/>
+<connect gate="G$1" pin="TXP2" pad="B2"/>
+<connect gate="G$1" pin="VBUS1" pad="A4"/>
+<connect gate="G$1" pin="VBUS2" pad="A9"/>
+<connect gate="G$1" pin="VBUS3" pad="B4"/>
+<connect gate="G$1" pin="VBUS4" pad="B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
+</eagle>

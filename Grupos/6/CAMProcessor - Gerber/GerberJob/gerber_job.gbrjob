@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-11-17T02:06:14Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Esquematico"
+        },
+        "Owner": "Andres Garrido <andres.garridos@sansano.usm.cl>",
+        "Size": {
+            "X": 88.57,
+            "Y": 85
+        }
+    }
+}

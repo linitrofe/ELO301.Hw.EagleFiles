@@ -1,0 +1,1 @@
+Este excel esta hecho por nosotros para complementar más detalladamente el archvio excel generado con Eagle.
