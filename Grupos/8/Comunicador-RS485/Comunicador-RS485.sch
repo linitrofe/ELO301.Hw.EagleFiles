@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -11177,22 +11177,17 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="M1" gate="-CN10" pin="PA2"/>
-<wire x1="45.72" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<label x="38.1" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="T1" gate="BUFF" pin="D"/>
 <wire x1="-121.92" y1="-45.72" x2="-149.86" y2="-45.72" width="0.1524" layer="91"/>
 <label x="-149.86" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="M1" gate="-CN8" pin="PA1"/>
+<wire x1="180.34" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<label x="180.34" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RX" class="0">
-<segment>
-<pinref part="M1" gate="-CN10" pin="PA3"/>
-<wire x1="45.72" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<label x="38.1" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="T1" gate="BUFF" pin="R"/>
@@ -11201,6 +11196,11 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <wire x1="-149.86" y1="-20.32" x2="-137.16" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-137.16" y="-20.32"/>
 <label x="-149.86" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="M1" gate="-CN8" pin="PA0"/>
+<wire x1="185.42" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
+<label x="180.34" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC5V" class="0">
@@ -11241,11 +11241,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 </net>
 <net name="DE" class="0">
 <segment>
-<pinref part="M1" gate="-CN7" pin="PA1"/>
-<wire x1="127" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<label x="127" y="38.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="T1" gate="BUFF" pin="RE"/>
 <wire x1="-111.76" y1="-30.48" x2="-111.76" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="-33.02" x2="-127" y2="-33.02" width="0.1524" layer="91"/>
@@ -11257,6 +11252,11 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <wire x1="-127" y1="-33.02" x2="-127" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="-127" y="-33.02"/>
 <label x="-127" y="-53.34" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="M1" gate="-CN7" pin="PA15"/>
+<wire x1="91.44" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<label x="86.36" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
