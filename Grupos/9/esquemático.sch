@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8964,8 +8964,8 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <instance part="M1" gate="-CN9" x="106.68" y="52.07" smashed="yes">
 <attribute name="NAME" x="104.14" y="65.786" size="1.778" layer="95"/>
 </instance>
-<instance part="M1" gate="-CN5" x="198.12" y="49.53" smashed="yes">
-<attribute name="NAME" x="195.58" y="65.786" size="1.778" layer="95"/>
+<instance part="M1" gate="-CN5" x="132.08" y="-13.97" smashed="yes">
+<attribute name="NAME" x="129.54" y="2.286" size="1.778" layer="95"/>
 </instance>
 <instance part="M1" gate="-CN10" x="231.14" y="35.56" smashed="yes">
 <attribute name="NAME" x="221.234" y="61.976" size="1.778" layer="95"/>
@@ -9282,38 +9282,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <pinref part="Q1" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="M1" gate="-CN9" pin="PA8"/>
-<pinref part="U1" gate="ADC$1" pin="PD_SCK"/>
-<wire x1="99.06" y1="44.45" x2="97.79" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="44.45" x2="77.47" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="44.45" x2="77.47" y2="41.91" width="0.1524" layer="91"/>
-<pinref part="U2" gate="ADC$1" pin="PD_SCK"/>
-<wire x1="88.9" y1="-30.48" x2="97.79" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="-30.48" x2="97.79" y2="44.45" width="0.1524" layer="91"/>
-<junction x="97.79" y="44.45"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U1" gate="ADC$1" pin="DOUT"/>
-<wire x1="77.47" y1="46.99" x2="87.63" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="87.63" y1="46.99" x2="87.63" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN8" pin="PC1"/>
-<wire x1="87.63" y1="22.86" x2="100.33" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="M1" gate="-CN8" pin="PC0"/>
-<wire x1="100.33" y1="20.32" x2="100.33" y2="0" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="0" x2="104.14" y2="0" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="0" x2="104.14" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="U2" gate="ADC$1" pin="DOUT"/>
-<wire x1="104.14" y1="-25.4" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="U2" gate="ADC$1" pin="RATE"/>
@@ -9367,6 +9335,44 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <junction x="77.47" y="76.2"/>
 <wire x1="91.44" y1="2.54" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
 <junction x="88.9" y="2.54"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U2" gate="ADC$1" pin="DOUT"/>
+<wire x1="104.14" y1="-25.4" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN5" pin="PA6"/>
+<wire x1="104.14" y1="-25.4" x2="104.14" y2="-11.43" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-11.43" x2="124.46" y2="-11.43" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U2" gate="ADC$1" pin="PD_SCK"/>
+<wire x1="88.9" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN8" pin="PA1"/>
+<wire x1="96.52" y1="-30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="30.48" x2="100.33" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="ADC$1" pin="PD_SCK"/>
+<wire x1="77.47" y1="41.91" x2="93.98" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="41.91" x2="93.98" y2="46.99" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN9" pin="PB10"/>
+<wire x1="93.98" y1="46.99" x2="99.06" y2="46.99" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="M1" gate="-CN7" pin="PC2"/>
+<wire x1="118.11" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="15.24" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="35.56" x2="86.36" y2="46.99" width="0.1524" layer="91"/>
+<pinref part="U1" gate="ADC$1" pin="DOUT"/>
+<wire x1="86.36" y1="46.99" x2="77.47" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
