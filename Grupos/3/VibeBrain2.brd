@@ -1910,8 +1910,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="R1" pad="1"/>
 <polygon width="0.1524" layer="16">
 <vertex x="-0.1" y="17.9"/>
-<vertex x="-0.1" y="-0.1"/>
-<vertex x="34" y="0"/>
+<vertex x="-0.1" y="-0.049853125"/>
+<vertex x="34" y="0.050146875"/>
 <vertex x="34" y="3.9"/>
 <vertex x="28.9" y="3.9"/>
 <vertex x="28.9" y="14.1"/>
@@ -2010,7 +2010,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="28.35" y1="9.75" x2="28.35" y2="10.1" width="0.1524" layer="16"/>
 <wire x1="30.3" y1="12.05" x2="31.05" y2="12.05" width="0.1524" layer="16"/>
 <wire x1="28.35" y1="10.1" x2="30.3" y2="12.05" width="0.1524" layer="16"/>
-<wire x1="22.955" y1="5.28" x2="22.93" y2="2.555" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VDD">
 <contactref element="U3" pad="4"/>
@@ -2538,9 +2537,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="8.31178125" y1="6.3456" x2="8.6544" y2="6.3456" width="0.1524" layer="16"/>
 <wire x1="7.05" y1="6.65" x2="8.00738125" y2="6.65" width="0.1524" layer="16"/>
 <wire x1="8.00738125" y1="6.65" x2="8.31178125" y2="6.3456" width="0.1524" layer="16"/>
-<wire x1="22.2" y1="4.2" x2="24.9" y2="4.2" width="0.1524" layer="16"/>
-<wire x1="24.9" y1="4.2" x2="27.2" y2="6.5" width="0.1524" layer="16"/>
-<wire x1="27.2" y1="6.5" x2="27.2" y2="8.7" width="0.1524" layer="16"/>
+<wire x1="22.2" y1="4.2" x2="24.3" y2="4.2" width="0.1524" layer="16"/>
+<wire x1="24.3" y1="4.2" x2="27.2" y2="7.1" width="0.1524" layer="16"/>
+<wire x1="27.2" y1="7.1" x2="27.2" y2="8.7" width="0.1524" layer="16"/>
 <via x="27.2" y="8.7" extent="1-16" drill="0.35"/>
 <via x="27.2" y="10.6" extent="1-16" drill="0.35"/>
 <wire x1="30.6644" y1="14.5294" x2="31.45" y2="15.315" width="0.1524" layer="16"/>
@@ -2556,17 +2555,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="MCU1" pad="26"/>
 <contactref element="J1" pad="6"/>
 <wire x1="32.72" y1="15.315" x2="32.72" y2="14.97" width="0.1524" layer="16"/>
-<wire x1="32.72" y1="14.97" x2="32.175" y2="14.425" width="0.1524" layer="16"/>
-<wire x1="32.175" y1="14.425" x2="32.1" y2="14.35" width="0.1524" layer="16"/>
+<wire x1="32.72" y1="14.97" x2="31.9532" y2="14.2032" width="0.1524" layer="16"/>
 <wire x1="29.458725" y1="14.2032" x2="29.455525" y2="14.2" width="0.1524" layer="16"/>
 <wire x1="29.455525" y1="14.2" x2="29.2" y2="14.2" width="0.1524" layer="16"/>
-<wire x1="32.1" y1="14.35" x2="31.9532" y2="14.2032" width="0.1524" layer="16"/>
 <wire x1="31.9532" y1="14.2032" x2="29.458725" y2="14.2032" width="0.1524" layer="16"/>
 <wire x1="29.2" y1="14.2" x2="28.65" y2="13.65" width="0.1524" layer="16"/>
 <wire x1="28.65" y1="13.65" x2="28.65" y2="11.15" width="0.1524" layer="16"/>
-<wire x1="28.65" y1="11.15" x2="24" y2="6.5" width="0.1524" layer="16"/>
-<wire x1="24" y1="6.5" x2="15.6" y2="6.5" width="0.1524" layer="16"/>
-<wire x1="15.6" y1="6.5" x2="14.6" y2="7.5" width="0.1524" layer="16"/>
+<wire x1="28.65" y1="11.15" x2="27.1" y2="9.6" width="0.1524" layer="16"/>
+<wire x1="22.75" y1="6.2" x2="15.9" y2="6.2" width="0.1524" layer="16"/>
+<wire x1="15.9" y1="6.2" x2="14.6" y2="7.5" width="0.1524" layer="16"/>
 <wire x1="14.6" y1="7.5" x2="12.35" y2="7.5" width="0.1524" layer="16"/>
 <via x="12.35" y="7.5" extent="1-16" drill="0.35"/>
 <wire x1="12.35" y1="7.5" x2="9.75" y2="7.5" width="0.1524" layer="1"/>
@@ -2576,6 +2573,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="9.35" y="8.5" extent="1-16" drill="0.35"/>
 <wire x1="7.91" y1="8.51" x2="9.34" y2="8.51" width="0.1524" layer="1"/>
 <wire x1="9.34" y1="8.51" x2="9.35" y2="8.5" width="0.1524" layer="1"/>
+<wire x1="27.1" y1="9.6" x2="26.3" y2="9.6" width="0.127" layer="16"/>
+<wire x1="22.9" y1="6.2" x2="22.75" y2="6.2" width="0.127" layer="16"/>
+<wire x1="26.3" y1="9.6" x2="22.9" y2="6.2" width="0.127" layer="16"/>
 </signal>
 <signal name="N$19">
 <via x="3" y="13.5" extent="1-16" drill="0.35"/>
@@ -2613,7 +2613,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,48924a904a104812"/>
+<approved hash="21,19,34ab36aa36aa34ab"/>
+<approved hash="7,39,67fe7a555b5e3f12"/>
+<approved hash="7,39,6d6e002a15956da9"/>
 </errors>
 </board>
 </drawing>
