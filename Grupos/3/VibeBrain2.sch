@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9914,6 +9914,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="L1" library="LQW15DN100M00D" deviceset="LQW15DN100M00D-ME" device="" value="10 uH">
 <attribute name="PARTNO" value="LQW15DN100M00D"/>
 </part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5K1">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="PARTNO" value="RC0402FR-075K1L"/>
+</part>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5K1">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="PARTNO" value="RC0402FR-075K1L"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -10221,6 +10239,16 @@ VZ4TL2B124064X</text>
 <attribute name="VALUE" x="-33.02" y="63.5" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="-30.48" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R11" gate="G$1" x="261.62" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="260.1214" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="264.922" y="36.83" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="261.62" y="40.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="309.88" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="308.3814" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="313.182" y="36.83" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="309.88" y="40.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10307,12 +10335,18 @@ VZ4TL2B124064X</text>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="261.62" y1="33.02" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="USB_C" gate="G$1" pin="GND2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="33.02" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
+<junction x="261.62" y="33.02"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="33.02" x2="309.88" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="309.88" y1="33.02" x2="309.88" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="USB_C" gate="G$1" pin="GND3"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="35.56" x2="309.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="309.88" y="33.02"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -10373,11 +10407,27 @@ VZ4TL2B124064X</text>
 <wire x1="218.44" y1="53.34" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
 <junction x="218.44" y="58.42"/>
 <pinref part="U3" gate="G$1" pin="VDD"/>
-<wire x1="269.24" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="73.66" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="58.42" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="USB_C" gate="G$1" pin="VBUS1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="USB_C" gate="G$1" pin="VBUS2"/>
+<wire x1="269.24" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="48.26" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="236.22" y="73.66"/>
+<pinref part="USB_C" gate="G$1" pin="VBUS4"/>
+<wire x1="304.8" y1="73.66" x2="314.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="73.66" x2="314.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="111.76" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="111.76" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<junction x="238.76" y="73.66"/>
+<pinref part="USB_C" gate="G$1" pin="VBUS3"/>
+<wire x1="304.8" y1="48.26" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="48.26" x2="314.96" y2="73.66" width="0.1524" layer="91"/>
+<junction x="314.96" y="73.66"/>
 </segment>
 </net>
 <net name="PROG" class="0">
@@ -10789,6 +10839,22 @@ VZ4TL2B124064X</text>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="SW"/>
 <wire x1="-20.32" y1="68.58" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="USB_C" gate="G$1" pin="CC1"/>
+<wire x1="261.62" y1="45.72" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="USB_C" gate="G$1" pin="CC2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="53.34" x2="309.88" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
