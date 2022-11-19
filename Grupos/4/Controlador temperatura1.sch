@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8910,6 +8910,9 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="PH1-01-UA">
+<attribute name="PARTNO" value="PH1-01-UA"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8925,9 +8928,9 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <wire x1="-12.7" y1="50.8" x2="-116.84" y2="50.8" width="0.1524" layer="94"/>
 <text x="-109.22" y="142.24" size="3.81" layer="97">NUCLEO ST morpho connector izquierda</text>
 <text x="22.86" y="50.8" size="3.81" layer="97">NUCLEO ST morpho connector derecha</text>
-<text x="30.48" y="35.56" size="2.1844" layer="94">Circuito botones</text>
+<text x="30.48" y="40.64" size="2.1844" layer="94">Circuito botones</text>
 <text x="48.26" y="-33.02" size="2.1844" layer="94">Senales temperatura</text>
-<text x="106.68" y="2.54" size="2.1844" layer="94">Senal Gate TRIAC</text>
+<text x="124.46" y="-5.08" size="2.1844" layer="94">Senal Gate TRIAC</text>
 <text x="-101.6" y="109.22" size="2.1844" layer="94">Circuito LEDs</text>
 <text x="-38.1" y="116.84" size="2.1844" layer="94">Power</text>
 <wire x1="-116.84" y1="149.86" x2="-116.84" y2="63.5" width="0.1524" layer="94"/>
@@ -9002,15 +9005,15 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <attribute name="VALUE" x="54.61" y="5.08" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="48.26" y="5.08" size="2.1844" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="30.48" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.9814" y="16.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.782" y="16.51" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="30.48" y="20.32" size="2.1844" layer="96" rot="R90" display="off"/>
+<instance part="R3" gate="G$1" x="30.48" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.9814" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="33.782" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="30.48" y="25.4" size="2.1844" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="48.26" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.7614" y="16.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.562" y="16.51" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="48.26" y="20.32" size="2.1844" layer="96" rot="R90" display="off"/>
+<instance part="R4" gate="G$1" x="48.26" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.7614" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="51.562" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="48.26" y="25.4" size="2.1844" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="30.48" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="27.94" y="-17.78" size="1.778" layer="96"/>
@@ -9037,14 +9040,22 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <attribute name="VALUE" x="-66.04" y="-2.54" size="2.54" layer="96"/>
 <attribute name="PARTNO" x="-73.66" y="17.78" size="3.81" layer="96" display="off"/>
 </instance>
-<instance part="P+3" gate="VCC" x="40.64" y="30.48" smashed="yes">
-<attribute name="VALUE" x="38.1" y="27.94" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="40.64" y="35.56" smashed="yes">
+<attribute name="VALUE" x="38.1" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="53.34" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="50.8" y="-5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="35.56" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="33.02" y="-5.08" size="1.778" layer="96"/>
+</instance>
+<instance part="JP2" gate="G$1" x="121.92" y="12.7" smashed="yes">
+<attribute name="NAME" x="115.57" y="15.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="7.62" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="121.92" y="12.7" size="2.1844" layer="96" display="off"/>
+</instance>
+<instance part="M1" gate="-CN5" x="-5.08" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-26.924" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -9067,20 +9078,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="S1" gate="G$1" pin="1.1"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PB5"/>
-<wire x1="30.48" y1="-5.08" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="30.48" y="-5.08"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="S2" gate="G$1" pin="1.1"/>
-<wire x1="48.26" y1="0" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PB3"/>
-<wire x1="48.26" y1="-7.62" x2="48.26" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="48.26" y="-7.62"/>
+<wire x1="48.26" y1="0" x2="48.26" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="M1" gate="-CN7" pin="GND@3"/>
@@ -9120,12 +9123,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="33.02" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
-<junction x="40.64" y="25.4"/>
+<wire x1="40.64" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
+<junction x="40.64" y="30.48"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9159,15 +9162,27 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <net name="N$10" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2.1"/>
-<wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="20.32" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<junction x="30.48" y="17.78"/>
+<wire x1="60.96" y1="17.78" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN10" pin="PB3"/>
+<wire x1="71.12" y1="-7.62" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="2.1"/>
-<wire x1="48.26" y1="15.24" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="20.32" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="M1" gate="-CN10" pin="PB5"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-5.08" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-5.08" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="15.24"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9186,13 +9201,6 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <wire x1="-86.36" y1="104.14" x2="-86.36" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="M1" gate="-CN10" pin="PB13"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="-5.08" x2="119.38" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SO"/>
@@ -9200,10 +9208,9 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <label x="-40.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="-CN10" pin="PA10"/>
-<wire x1="71.12" y1="-10.16" x2="53.34" y2="-10.16" width="0.1524" layer="91"/>
-<label x="50.8" y="-27.94" size="2.1844" layer="95"/>
-<wire x1="53.34" y1="-10.16" x2="53.34" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN5" pin="PA6"/>
+<wire x1="-12.7" y1="-40.64" x2="-25.4" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-22.86" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -9213,10 +9220,9 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <label x="-40.64" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="-CN10" pin="PA2"/>
-<wire x1="71.12" y1="-12.7" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
-<label x="58.42" y="-27.94" size="2.1844" layer="95"/>
-<wire x1="60.96" y1="-12.7" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN5" pin="PB6"/>
+<wire x1="-12.7" y1="-35.56" x2="-25.4" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-22.86" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -9226,10 +9232,27 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <label x="-40.64" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="-CN10" pin="PA3"/>
-<wire x1="71.12" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
-<label x="66.04" y="-27.94" size="2.1844" layer="95"/>
-<wire x1="68.58" y1="-15.24" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN5" pin="PA5"/>
+<wire x1="-12.7" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-22.86" y="-43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-5.08" x2="109.22" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN10" pin="PB14"/>
+<wire x1="109.22" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="M1" gate="-CN10" pin="PB1"/>
+<wire x1="101.6" y1="2.54" x2="111.76" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="2.54" x2="111.76" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -9243,12 +9266,12 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <approved hash="204,1,-43.18,104.14,M1-CN7,+5V,,,,"/>
 <approved hash="204,1,-43.18,96.52,M1-CN7,VIN,,,,"/>
 <approved hash="204,1,-73.66,83.82,M1-CN7,VBAT,,,,"/>
-<approved hash="205,1,-58.42,103.306,M1-CN6,IOREF,,,,"/>
-<approved hash="114,1,-58.42,103.306,M1,-CN6,RESET,,,"/>
-<approved hash="205,1,-58.42,103.306,M1-CN6,+3V3,,,,"/>
-<approved hash="205,1,-58.42,103.306,M1-CN6,+5V,,,,"/>
-<approved hash="205,1,-58.42,103.306,M1-CN6,VIN,,,,"/>
-<approved hash="205,1,-58.42,103.306,M1-CN5,AVDD,,,,"/>
+<approved hash="205,1,-58.42,103.325,M1-CN6,IOREF,,,,"/>
+<approved hash="114,1,-58.42,103.325,M1,-CN6,RESET,,,"/>
+<approved hash="205,1,-58.42,103.325,M1-CN6,+3V3,,,,"/>
+<approved hash="205,1,-58.42,103.325,M1-CN6,+5V,,,,"/>
+<approved hash="205,1,-58.42,103.325,M1-CN6,VIN,,,,"/>
+<approved hash="204,1,-12.7,-48.26,M1-CN5,AVDD,,,,"/>
 <approved hash="204,1,71.12,22.86,M1-CN10,AVDD,,,,"/>
 <approved hash="204,1,101.6,22.86,M1-CN10,U5V,,,,"/>
 <approved hash="204,1,101.6,-7.62,M1-CN10,AGND,,,,"/>
