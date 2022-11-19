@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9160,14 +9160,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </spice>
 <attribute name="PART_NO" value="RC0805JR-070RL"/>
 </part>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="80.6 k">
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="301K">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="PART_NO" value="RC0805FR-0780K6L"/>
+<attribute name="PARTNO" value="RC0805FR-07301KL"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="59 k">
 <spice>
@@ -9455,7 +9455,7 @@ SE ESPECIFIQUE LO CONTRARIO</text>
 <instance part="R4" gate="G$1" x="-166.37" y="7.62" smashed="yes">
 <attribute name="NAME" x="-170.18" y="9.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-170.18" y="4.318" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="-166.37" y="7.62" size="0.4064" layer="96" display="off"/>
+<attribute name="PARTNO" x="-166.37" y="7.62" size="0.4064" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-166.624" y="17.78" smashed="yes">
 <attribute name="NAME" x="-170.434" y="19.2786" size="1.778" layer="95"/>
@@ -10121,9 +10121,11 @@ SE ESPECIFIQUE LO CONTRARIO</text>
 <net name="N$29" class="0">
 <segment>
 <pinref part="CT4" gate="CT$1" pin="5"/>
+<wire x1="-220.98" y1="119.38" x2="-220.98" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="160.02" x2="-154.94" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="160.02" x2="-154.94" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U$1" pin="T-"/>
-<wire x1="-220.98" y1="119.38" x2="-220.98" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="157.48" x2="-152.4" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="157.48" x2="-152.4" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -10341,10 +10343,7 @@ SE ESPECIFIQUE LO CONTRARIO</text>
 <approved hash="104,1,81.28,121.92,M1-CN10,AGND,GND,,,"/>
 <approved hash="104,1,-2.54,68.58,U1,VCC,N$8,,,"/>
 <approved hash="104,1,-152.4,137.16,U3,VCC,N$26,,,"/>
-<approved hash="110,1,-175.26,157.48,N$29,GND,,,,"/>
-<approved hash="111,1,-175.26,157.48,N$29,,,,,"/>
 <approved hash="113,1,-78.359,-52.7583,M1,,,,,"/>
-<approved hash="113,1,-152.259,33.2486,T.P.1,,,,,"/>
 <approved hash="113,1,-160.215,117.104,T.P.2,,,,,"/>
 <approved hash="113,1,-126.458,116.977,T.P.3,,,,,"/>
 <approved hash="113,1,-300.347,32.4968,T.P.4,,,,,"/>
