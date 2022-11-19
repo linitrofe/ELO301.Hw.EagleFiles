@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8217,22 +8217,26 @@ tespoint</text>
 </net>
 <net name="TX" class="0">
 <segment>
-<wire x1="66.04" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="53.34" x2="88.9" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-45.72" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PC4"/>
 <label x="43.18" y="-45.72" size="1.778" layer="95"/>
 <pinref part="ESP-WROOM-32" gate="G$1" pin="IO17"/>
+<wire x1="88.9" y1="-45.72" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-2.54" x2="91.44" y2="0" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN10" pin="PC5"/>
+<wire x1="91.44" y1="0" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
-<wire x1="66.04" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="88.9" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-48.26" x2="22.86" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PC5"/>
 <label x="43.18" y="-48.26" size="1.778" layer="95"/>
 <pinref part="ESP-WROOM-32" gate="G$1" pin="IO16"/>
+<wire x1="66.04" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN10" pin="PC4"/>
+<wire x1="88.9" y1="53.34" x2="88.9" y2="0" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="0" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-2.54" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CTS" class="0">
@@ -8240,24 +8244,26 @@ tespoint</text>
 <wire x1="38.1" y1="5.08" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-63.5" x2="2.54" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-63.5" x2="2.54" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="5.08" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="5.08" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PA6"/>
-<label x="30.48" y="12.7" size="1.778" layer="95"/>
 <pinref part="ESP-WROOM-32" gate="G$1" pin="IO15"/>
+<wire x1="66.04" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="M1" gate="-CN10" pin="PB1"/>
+<wire x1="38.1" y1="5.08" x2="83.82" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="5.08" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTS" class="0">
 <segment>
-<wire x1="66.04" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="66.04" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-76.2" x2="-38.1" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-76.2" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-50.8" x2="-35.56" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="M1" gate="-CN10" pin="PB1"/>
 <label x="43.18" y="-76.2" size="1.778" layer="95"/>
 <pinref part="ESP-WROOM-32" gate="G$1" pin="IO14"/>
+<pinref part="M1" gate="-CN10" pin="PA6"/>
+<wire x1="30.48" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="30.48" y="12.7" size="1.778" layer="95"/>
+<wire x1="30.48" y1="0" x2="83.82" y2="0" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="0" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO" class="0">
