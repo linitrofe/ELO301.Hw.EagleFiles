@@ -7721,9 +7721,9 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="19" y1="-3" x2="4" y2="-3" width="0.127" layer="51"/>
 <text x="-4" y="10" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-6.5" y1="-9.5" x2="20" y2="9.5" layer="39"/>
-<pad name="3" x="0" y="5.08" drill="1"/>
-<pad name="1" x="0" y="-5.08" drill="1"/>
-<pad name="2" x="0" y="0" drill="1"/>
+<pad name="3" x="0" y="5.08" drill="1.2"/>
+<pad name="1" x="0" y="-5.08" drill="1.2"/>
+<pad name="2" x="0" y="0" drill="1.2"/>
 <wire x1="-5.588" y1="8.636" x2="-5.588" y2="7.62" width="0.127" layer="21"/>
 <wire x1="-5.588" y1="8.636" x2="-4.318" y2="8.636" width="0.127" layer="21"/>
 <wire x1="-5.588" y1="-7.366" x2="-5.588" y2="-8.636" width="0.127" layer="21"/>
