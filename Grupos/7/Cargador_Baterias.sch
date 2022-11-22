@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8078,8 +8078,8 @@ Source: AVX .. aphvc.pdf</description>
 <library name="S2B-PH-K-SLFSN">
 <packages>
 <package name="BULK">
-<pad name="P$1" x="-1" y="0" drill="0.5"/>
-<pad name="P$2" x="1" y="0" drill="0.5"/>
+<pad name="P$1" x="-1" y="0" drill="0.7"/>
+<pad name="P$2" x="1" y="0" drill="0.7"/>
 <wire x1="-2.5" y1="2.25" x2="2.5" y2="2.25" width="0.127" layer="51"/>
 <wire x1="2.5" y1="-2.25" x2="-2.5" y2="-2.25" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="2.25" x2="-2.5" y2="-2.25" width="0.127" layer="51"/>
@@ -8527,8 +8527,8 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <packages>
 <package name="PTS645SM43SMTR92LFS">
 <smd name="1" x="-3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
-<smd name="2" x="-3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
-<smd name="3" x="3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="3" x="-3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="2" x="3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
 <smd name="4" x="3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
 <wire x1="-3.2" y1="3.2" x2="3.2" y2="3.2" width="0.127" layer="51"/>
 <wire x1="-3.2" y1="3.2" x2="-3.2" y2="-3.2" width="0.127" layer="51"/>
@@ -8561,8 +8561,8 @@ Al momento de diseñar la tarjeta, el Dimension debe ser dibujado según los req
 <device name="" package="PTS645SM43SMTR92LFS">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+<connect gate="G$1" pin="P$3" pad="2"/>
 <connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
@@ -10247,38 +10247,38 @@ Source: www.kingbright.com</description>
 </net>
 <net name="B1" class="0">
 <segment>
-<pinref part="BOTON1" gate="G$1" pin="P$3"/>
-<wire x1="144.78" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
-<label x="139.7" y="134.62" size="1.778" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
 <pinref part="M1" gate="-CN9" pin="PB10"/>
 <wire x1="-5.08" y1="129.54" x2="-10.16" y2="129.54" width="0.1524" layer="91"/>
 <label x="-10.16" y="129.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<wire x1="170.18" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="175.26" y="139.7" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<pinref part="BOTON1" gate="G$1" pin="P$2"/>
+</segment>
 </net>
 <net name="B2" class="0">
-<segment>
-<pinref part="BOTON2" gate="G$1" pin="P$3"/>
-<wire x1="144.78" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
-<label x="139.7" y="119.38" size="1.778" layer="95" rot="MR0" xref="yes"/>
-</segment>
 <segment>
 <pinref part="M1" gate="-CN9" pin="PA8"/>
 <wire x1="-5.08" y1="127" x2="-10.16" y2="127" width="0.1524" layer="91"/>
 <label x="-10.16" y="127" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<wire x1="170.18" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<label x="175.26" y="124.46" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<pinref part="BOTON2" gate="G$1" pin="P$2"/>
+</segment>
 </net>
 <net name="B3" class="0">
-<segment>
-<pinref part="BOTON3" gate="G$1" pin="P$3"/>
-<wire x1="144.78" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
-<label x="139.7" y="101.6" size="1.778" layer="95" rot="MR0" xref="yes"/>
-</segment>
 <segment>
 <pinref part="M1" gate="-CN9" pin="PB4"/>
 <wire x1="-5.08" y1="132.08" x2="-10.16" y2="132.08" width="0.1524" layer="91"/>
 <label x="-10.16" y="132.08" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<wire x1="170.18" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<label x="175.26" y="106.68" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<pinref part="BOTON3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
