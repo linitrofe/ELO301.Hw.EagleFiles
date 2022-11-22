@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -75,22 +75,22 @@
 <wire x1="-19.33" y1="-6.5" x2="-19.33" y2="6.5" width="0.2032" layer="51"/>
 <text x="-17.78" y="-10.16" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.89" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="1" x="-8.89" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="9" x="8.89" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="11" x="3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="12" x="1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="13" x="-1.27" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="14" x="-3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="15" x="-6.35" y="3.81" drill="0.9" shape="long" rot="R90"/>
-<pad name="16" x="-8.89" y="3.81" drill="0.9" shape="long" rot="R90"/>
+<pad name="1" x="-8.89" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="1.1" shape="long" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="1.1" shape="long" rot="R90"/>
 <rectangle x1="-20.32" y1="-8.89" x2="17.78" y2="8.89" layer="39"/>
 <wire x1="-19.5" y1="7.5" x2="-19.5" y2="-7.5" width="0.127" layer="21"/>
 <wire x1="16" y1="7.5" x2="16" y2="-7.5" width="0.127" layer="21"/>
@@ -174,14 +174,14 @@ Source: http://www.3M.com/ehpd  &lt;a href="https://pricing.snapeda.com/parts/21
 <library name="CFS-0401MC - Nidec Copal Electronics">
 <packages>
 <package name="DIP_SPST-4">
-<pad name="1_B" x="-3.81" y="3.81" drill="0.6" diameter="1"/>
-<pad name="2_B" x="-1.27" y="3.81" drill="0.6" diameter="1"/>
-<pad name="3_B" x="1.27" y="3.81" drill="0.6" diameter="1"/>
-<pad name="4_B" x="3.81" y="3.81" drill="0.6" diameter="1"/>
-<pad name="1_A" x="-3.81" y="-3.81" drill="0.6" diameter="1"/>
-<pad name="2_A" x="-1.27" y="-3.81" drill="0.6" diameter="1"/>
-<pad name="3_A" x="1.27" y="-3.81" drill="0.6" diameter="1"/>
-<pad name="4_A" x="3.81" y="-3.81" drill="0.6" diameter="1"/>
+<pad name="1_B" x="-3.81" y="3.81" drill="1"/>
+<pad name="2_B" x="-1.27" y="3.81" drill="1"/>
+<pad name="3_B" x="1.27" y="3.81" drill="1"/>
+<pad name="4_B" x="3.81" y="3.81" drill="1"/>
+<pad name="1_A" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2_A" x="-1.27" y="-3.81" drill="1"/>
+<pad name="3_A" x="1.27" y="-3.81" drill="1"/>
+<pad name="4_A" x="3.81" y="-3.81" drill="1"/>
 <wire x1="-5.8" y1="3.31" x2="5.8" y2="3.31" width="0.127" layer="51"/>
 <wire x1="-5.8" y1="-3.31" x2="5.8" y2="-3.31" width="0.127" layer="51"/>
 <wire x1="-5.8" y1="3.31" x2="-5.8" y2="-3.31" width="0.127" layer="51"/>
@@ -222,19 +222,19 @@ Source: http://www.3M.com/ehpd  &lt;a href="https://pricing.snapeda.com/parts/21
 <devicesets>
 <deviceset name="CFS-0401MC" prefix="S" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SWITCH_DIP" x="0" y="0"/>
+<gate name="G1" symbol="SWITCH_DIP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIP_SPST-4">
 <connects>
-<connect gate="G$1" pin="1_A" pad="1_A"/>
-<connect gate="G$1" pin="1_B" pad="1_B"/>
-<connect gate="G$1" pin="2_A" pad="2_A"/>
-<connect gate="G$1" pin="2_B" pad="2_B"/>
-<connect gate="G$1" pin="3_A" pad="3_A"/>
-<connect gate="G$1" pin="3_B" pad="3_B"/>
-<connect gate="G$1" pin="4_A" pad="4_A"/>
-<connect gate="G$1" pin="4_B" pad="4_B"/>
+<connect gate="G1" pin="1_A" pad="1_A"/>
+<connect gate="G1" pin="1_B" pad="1_B"/>
+<connect gate="G1" pin="2_A" pad="2_A"/>
+<connect gate="G1" pin="2_B" pad="2_B"/>
+<connect gate="G1" pin="3_A" pad="3_A"/>
+<connect gate="G1" pin="3_B" pad="3_B"/>
+<connect gate="G1" pin="4_A" pad="4_A"/>
+<connect gate="G1" pin="4_B" pad="4_B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -534,10 +534,10 @@ Source: http://www.3M.com/ehpd  &lt;a href="https://pricing.snapeda.com/parts/21
 <library name="(2x)PH1-01-UA - Adam Tech">
 <packages>
 <package name="HEADER">
-<pad name="1" x="-1.27" y="0" drill="0.7" diameter="1.02"/>
+<pad name="1" x="-1.27" y="0" drill="1"/>
 <text x="-1.8" y="1.4" size="0.9" layer="51">&gt;NAME</text>
 <rectangle x1="-2.54" y1="-1.27" x2="0" y2="1.27" layer="39"/>
-<pad name="2" x="1.27" y="0" drill="0.7" diameter="1.02"/>
+<pad name="2" x="1.27" y="0" drill="1"/>
 <rectangle x1="0" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
 </package>
 </packages>
@@ -694,7 +694,7 @@ Source: http://www.3M.com/ehpd  &lt;a href="https://pricing.snapeda.com/parts/21
 <library name="PH1-01-UA - Adam Tech">
 <packages>
 <package name="HEADER">
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.02"/>
+<pad name="1" x="0" y="0" drill="1.016"/>
 <text x="-2.2" y="1.4" size="0.9" layer="51">&gt;NAME</text>
 <rectangle x1="-1.25" y1="-1.25" x2="1.25" y2="1.25" layer="39"/>
 </package>
@@ -727,20 +727,20 @@ Source: http://www.3M.com/ehpd  &lt;a href="https://pricing.snapeda.com/parts/21
 <library name="CD74HC4002PWR">
 <packages>
 <package name="14-TSSOP">
-<smd name="1" x="-2.7" y="1.95" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="2" x="-2.7" y="1.3" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="3" x="-2.7" y="0.65" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="4" x="-2.7" y="0" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="5" x="-2.7" y="-0.65" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="6" x="-2.7" y="-1.3" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="7" x="-2.7" y="-1.95" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="8" x="2.7" y="1.95" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="9" x="2.7" y="1.3" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="10" x="2.7" y="0.65" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="11" x="2.7" y="0" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="12" x="2.7" y="-0.65" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="13" x="2.7" y="-1.3" dx="1" dy="0.245" layer="1" roundness="50"/>
-<smd name="14" x="2.7" y="-1.95" dx="1" dy="0.245" layer="1" roundness="50"/>
+<smd name="1" x="-2.8" y="1.95" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="2" x="-2.8" y="1.3" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="3" x="-2.8" y="0.65" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="4" x="-2.8" y="0" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="5" x="-2.8" y="-0.65" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="6" x="-2.8" y="-1.3" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="7" x="-2.8" y="-1.95" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="8" x="2.8" y="1.95" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="9" x="2.8" y="1.3" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="10" x="2.8" y="0.65" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="11" x="2.8" y="0" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="12" x="2.8" y="-0.65" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="13" x="2.8" y="-1.3" dx="1.55" dy="0.3" layer="1" roundness="50"/>
+<smd name="14" x="2.8" y="-1.95" dx="1.55" dy="0.3" layer="1" roundness="50"/>
 <wire x1="-2.2" y1="2.5" x2="-2.2" y2="-2.5" width="0.1524" layer="51"/>
 <wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1524" layer="51"/>
 <wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1524" layer="51"/>
@@ -1181,12 +1181,12 @@ Vref= </text>
 <attribute name="VALUE" x="109.22" y="33.02" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="116.84" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S1" gate="G$1" x="71.12" y="78.74" smashed="yes" rot="R90">
+<instance part="S1" gate="G1" x="71.12" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.8" y="71.12" size="2.54" layer="95" rot="R90"/>
 <attribute name="VALUE" x="91.44" y="71.12" size="2.54" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="71.12" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S2" gate="G$1" x="71.12" y="20.32" smashed="yes" rot="R90">
+<instance part="S2" gate="G1" x="71.12" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.8" y="12.7" size="2.54" layer="95" rot="R90"/>
 <attribute name="VALUE" x="91.44" y="12.7" size="2.54" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="71.12" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
@@ -1712,7 +1712,7 @@ Vref= </text>
 <pinref part="ZX1" gate="G1" pin="1"/>
 <wire x1="106.68" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="58.42" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="4_A"/>
+<pinref part="S1" gate="G1" pin="4_A"/>
 <wire x1="104.14" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1721,13 +1721,13 @@ Vref= </text>
 <pinref part="ZX1" gate="G1" pin="2"/>
 <wire x1="106.68" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="55.88" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="3_A"/>
+<pinref part="S1" gate="G1" pin="3_A"/>
 <wire x1="101.6" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="2_A"/>
+<pinref part="S1" gate="G1" pin="2_A"/>
 <pinref part="ZX1" gate="G1" pin="14"/>
 <wire x1="127" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="53.34" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
@@ -1736,7 +1736,7 @@ Vref= </text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="1_A"/>
+<pinref part="S1" gate="G1" pin="1_A"/>
 <wire x1="96.52" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="ZX1" gate="G1" pin="13"/>
 <wire x1="127" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
@@ -1750,7 +1750,7 @@ Vref= </text>
 <pinref part="ZX1" gate="G1" pin="10"/>
 <wire x1="127" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="43.18" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2_A"/>
+<pinref part="S2" gate="G1" pin="2_A"/>
 <wire x1="137.16" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1759,19 +1759,19 @@ Vref= </text>
 <pinref part="ZX1" gate="G1" pin="9"/>
 <wire x1="127" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="40.64" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1_A"/>
+<pinref part="S2" gate="G1" pin="1_A"/>
 <wire x1="139.7" y1="-2.54" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="4_B"/>
-<pinref part="S1" gate="G$1" pin="3_B"/>
+<pinref part="S1" gate="G1" pin="4_B"/>
+<pinref part="S1" gate="G1" pin="3_B"/>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="2_B"/>
+<pinref part="S1" gate="G1" pin="2_B"/>
 <wire x1="58.42" y1="86.36" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <junction x="58.42" y="86.36"/>
-<pinref part="S1" gate="G$1" pin="1_B"/>
+<pinref part="S1" gate="G1" pin="1_B"/>
 <wire x1="58.42" y1="78.74" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="71.12" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <junction x="58.42" y="71.12"/>
@@ -1782,13 +1782,13 @@ Vref= </text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="4_B"/>
-<pinref part="S2" gate="G$1" pin="3_B"/>
+<pinref part="S2" gate="G1" pin="4_B"/>
+<pinref part="S2" gate="G1" pin="3_B"/>
 <wire x1="58.42" y1="43.18" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2_B"/>
+<pinref part="S2" gate="G1" pin="2_B"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <junction x="58.42" y="27.94"/>
-<pinref part="S2" gate="G$1" pin="1_B"/>
+<pinref part="S2" gate="G1" pin="1_B"/>
 <wire x1="58.42" y1="20.32" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="12.7" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="12.7"/>
@@ -2476,7 +2476,7 @@ Vref= </text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="4_A"/>
+<pinref part="S2" gate="G1" pin="4_A"/>
 <wire x1="96.52" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="ZX1" gate="G1" pin="5"/>
 <wire x1="106.68" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
@@ -2487,7 +2487,7 @@ Vref= </text>
 <segment>
 <pinref part="ZX1" gate="G1" pin="6"/>
 <wire x1="106.68" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="3_A"/>
+<pinref part="S2" gate="G1" pin="3_A"/>
 <wire x1="99.06" y1="45.72" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
