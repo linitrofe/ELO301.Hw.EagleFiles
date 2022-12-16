@@ -1,0 +1,58 @@
+{
+    "author": {
+        "email": "alvaro.aguirre.13@sansano.usm.cl",
+        "name": "Alvaro Aguirre"
+    },
+    "description": {
+        "EN": "EAGLE default 2 layer CAM job."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+            ],
+            "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+                {
+                    "filename_format": "%N",
+                    "list_attribute": true,
+                    "list_type": "values",
+                    "name": "Bill of Material",
+                    "output_format": "csv",
+                    "type": "bom"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2022-11-23T18:21:16",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}

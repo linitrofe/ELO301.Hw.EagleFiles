@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"PARTNO";"POPULARITY";"SPICEPREFIX";
+"1";"";"NUCLEO-L452RE";"NUCLEO-64";"M1";"No existe un outline (Layer Dimension) para esta librería. En su lugar se utilizó una referencia en tDocu.";"NUCLEO-L452RE";"";"";
+"1";"0.1uF 0805";"C-USC0805";"C0805";"C1";"CAPACITOR, American symbol";"08053C104KAT2A";"63";"C";
+"1";"10k";"PTV09A-4015U-B103";"PTV09A-4";"P1";"";"PTV09A-4015U-B103";"";"";
+"2";"10k";"R-US_R0805";"R0805";"R4, R5";"RESISTOR, American symbol";"RC0805FR-0710KP";"85";"R";
+"1";"120";"R-US_R0805";"R0805";"R3";"RESISTOR, American symbol";"RC0805JR-13120RL";"85";"R";
+"1";"1729128";"MKDSN1,5/2-5,08";"MKDSN1,5/2-5,08";"C";"MKDSN 1,5/ 2-5,08 Printklemme";"1729128";"14";"";
+"1";"220";"R-US_R0805";"R0805";"R6";"RESISTOR, American symbol";"AC0805FR-07220RL";"85";"R";
+"3";"470";"R-US_R0805";"R0805";"R1, R2, R7";"RESISTOR, American symbol";"AC0805FR-07470RL";"85";"R";
+"1";"GREEN 1206";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1";"LED";"CMD15-21VGD/TR8";"28";"";
+"1";"JS0204AP4";"JS0204AP4";"JS0204AP";"S";"";"JS0204AP4";"";"";
+"1";"SN65HVD3082EDR";"SN65HVD3082EDR";"8-SOIC";"T1";"";"SN65HVD3082EDR";"";"";

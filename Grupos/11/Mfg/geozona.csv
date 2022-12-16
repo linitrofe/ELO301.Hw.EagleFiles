@@ -1,0 +1,11 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"PARTNO";"POPULARITY";"SPICEPREFIX";
+"1";"";"LED5MM";"LED5MM";"LED2";"LED";"C503B-GAN-CB0F0791";"93";"";
+"1";"";"LED5MM";"LED5MM";"LED1";"LED";"C503B-RAN-CA0B0AA1";"93";"";
+"1";"";"NUCLEO-L452RE";"NUCLEO-64";"M1";"No existe un outline (Layer Dimension) para esta librería. En su lugar se utilizó una referencia en tDocu.";"ESP-WROOM-32";"";"";
+"2";"1.3k";"R-US_R0805";"R0805";"R2, R3";"RESISTOR, American symbol";"RC0805FR-071K3L";"85";"R";
+"2";"100nF 0603";"C-USC0603";"C0603";"C1, C2";"CAPACITOR, American symbol";"GCJ188R71H104KA12D";"37";"C";
+"1";"10uF";"C-USC0805";"C0805";"C3";"CAPACITOR, American symbol";"GRM21BR71A106KA73L";"63";"C";
+"1";"4.7k";"R-US_R0805";"R0805";"R4";"RESISTOR, American symbol";"RC0805JR-074K7L";"85";"R";
+"1";"47k";"R-US_R0805";"R0805";"R1";"RESISTOR, American symbol";"RC0805FR-0747KL";"85";"R";
+"1";"L80-M39";"L80-M39";"12-SMD";"U1";"";"L80-M39";"";"";
+"1";"MMBT3904-7-F";"BC847";"SOT23";"T1";"NPN TRANSISTOR";"MMBT3904-7-F";"5";"";

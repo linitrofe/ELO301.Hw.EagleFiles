@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"PARTNO";"POPULARITY";"SPICEPREFIX";
+"1";"";"NUCLEO-L452RE";"NUCLEO-64";"M1";"No existe un outline (Layer Dimension) para esta librería. En su lugar se utilizó una referencia en tDocu.";"";"";"";
+"1";"";"PINHD-1X2";"1X02";"JP1";"PIN HEADER";"";"98";"";
+"1";"";"PINHD-1X5";"1X05";"JP2";"PIN HEADER";"";"69";"";
+"2";"100nF";"C-USC0805";"C0805";"C3, C6";"CAPACITOR, American symbol";"GCM21BR72A104KA37L";"63";"C";
+"1";"100uF";"CPOL-US";"F80-UNITE_CHEMI-CON";"C5";"POLARIZED CAPACITOR, American symbol";"EMVE250ADA101MF80G";"";"";
+"3";"10K";"R-US_R0805";"R0805";"R1, R2, R3";"RESISTOR, American symbol";"RC0805FR-0710KL";"85";"R";
+"2";"10nF";"C-USC0805";"C0805";"C1, C2";"CAPACITOR, American symbol";"GRM2195C1H103JA01D";"63";"C";
+"1";"10uF 1206";"C-USC1206";"C1206";"C7";"CAPACITOR, American symbol";"";"24";"C";
+"1";"1729128";"MKDSN1,5/2-5,08";"MKDSN1,5/2-5,08";"X1";"MKDSN 1,5/ 2-5,08 Printklemme";"1729128";"14";"";
+"1";"1uF";"C-USC0805";"C0805";"C4";"CAPACITOR, American symbol";"GCJ219R71C105KA01D";"63";"C";
+"1";"L9958SB";"L9958SB";"POWERSO-16";"U1";"";"L9958SB";"";"";
+"1";"P160KN-0QD15B10K";"P160KN";"P160KN-0QD15B10K";"VR1";"";"P160KN-0QD15B10K";"";"";

@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PARTNO";"POPULARITY";"SPICEPREFIX";
+"1";"0.1u";"C-USC0805";"C0805";"C2";"CAPACITOR, American symbol";"";"";"";"";"490-GCJ21BR72A104KA01KCT-ND";"63";"C";
+"6";"10k";"R-EU_R0805";"R0805";"R1, R2, R3, R4, R5, R6";"RESISTOR, European symbol";"";"";"";"";"311-10KARCT-ND";"86";"R";
+"1";"10n";"C-USC0603";"C0603";"C3";"CAPACITOR, American symbol";"";"";"";"";"490-4781-1-ND";"37";"C";
+"1";"1u";"C-USC1206";"C1206";"C1";"CAPACITOR, American symbol";"";"";"";"";"490-5810-1-ND";"24";"C";
+"3";"2k2";"R-EU_R0805";"R0805";"R9, R10, R11";"RESISTOR, European symbol";"";"";"";"";"311-2.2KARCT-ND";"86";"R";
+"2";"5k1";"R-EU_R0805";"R0805";"R7, R8";"RESISTOR, European symbol";"";"";"";"";"311-5.10KCRCT-ND";"86";"R";
+"1";"61300411121";"MA04-1";"MA04-1";"SV17";"PIN HEADER";"";"";"unknown";"unknown";"61300411121";"41";"";
+"1";"NUCLEO-L452RE";"NUCLEO-L452RE";"NUCLEO-64";"M1";"No existe un outline (Layer Dimension) para esta librería. En su lugar se utilizó una referencia en tDocu.";"";"";"";"";"NUCLEO-L452RE";"";"";
+"1";"PCA9685PW,112";"PCA9685PW,112";"SOP65P640X110-28N";"U1";"";"";"";"";"";"PCA9685PW,112";"";"";
+"16";"PH1-03-UA";"MA03-1";"MA03-1";"SV1, SV2, SV3, SV4, SV5, SV6, SV7, SV8, SV9, SV10, SV11, SV12, SV13, SV14, SV15, SV16";"PIN HEADER";"";"";"unknown";"unknown";"PH1-03-UA";"48";"";
+"1";"PH2-12-UA";"MA06-2";"MA06-2";"SV18";"PIN HEADER";"";"";"unknown";"unknown";"PH2-12-UA";"8";"";
+"1";"USB4085-GF-A";"USB4085-GF-A";"TROUGH_HOLE";"U2";"";"";"";"";"";"2073-USB4085-GF-ACT-ND ";"";"";
